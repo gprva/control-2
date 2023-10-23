@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+    font-family: 22px;
+    line-height: 1.2;
+    padding-top: 0px;
+}
+h1{
+
+
+ 
+    color: #323232;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: 0.8px;
+    margin: 60px;
+}
+.z{
+    color: #606060;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 94px;
+}
+.card_b{
+    color: #323232;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.card_c{
+
+
+    color: #000;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+
+    padding:  0 29px ;
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 32%;
+    transition: 0.5s;
+    border: 1px solid var(--Gray,#f6f6f6);
+    background: #fff;
+    margin-bottom: 30px;
+}
+.card:hover{
+    box-shadow: 0px 0px 18px 0px rgba(85, 83, 83, 0.25);
+}
+.card:hover.card_btn{
+color: #fff;
+background: #2A94E2;
+}
+.card_img{
+    display: block;
+    width: 100%;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 29px 29px;
+    
+}
+.menu a{
+    color: #01ddff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: inherit;
+    line-height: inherit;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu a:hover{
+    color: #ff9100; 
+}
+.df{
+    display: flex;
+    top:260px;
+}
+
+
